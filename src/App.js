@@ -9,8 +9,7 @@ class App extends Component {
 
     return (
       <div>
-        <h1>Todo</h1>
-
+  
         <TodoForm />
         
         <hr/>

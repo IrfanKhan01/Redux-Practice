@@ -30,6 +30,7 @@ class TodoForm extends Component {
                 <Grid columns={3}>
                     <Grid.Column width={4}></Grid.Column>
                     <Grid.Column width={8}>
+                        <h1>Todo</h1>
                 <form onSubmit={this._submit.bind(this)}>
                     <Input fluid type="text" value={this.state.todoInput} 
                             onChange={this._onChange.bind(this)} 

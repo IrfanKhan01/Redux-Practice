@@ -63,7 +63,7 @@ class TodoList extends Component {
                                     <List divided celled relaxed index={this.props.index}>
                                         <List.Item>
                                             <List.Content floated="right">
-                                                <Button inverted color='orange' onClick={(event) => {
+                                                <Button inverted color='blue' onClick={(event) => {
                                                     event.stopPropagation();
                                                     this.removeTodo.bind(this, this.props.index)();
                                                 }}>Delete</Button>
